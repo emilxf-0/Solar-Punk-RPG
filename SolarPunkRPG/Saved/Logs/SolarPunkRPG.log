@@ -1241,3 +1241,19 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.10-10.45.57:779][  1]Running Python start-up script 'C:/Program Files/Epic Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.065758 secs
 [2024.03.10-10.45.58:032][  1]LogD3D12RHI: Cannot end block when stack is empty
 [2024.03.10-10.45.58:274][  2]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.03.10-10.46.53:361][326]LogSlate: Took 0.000401 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.03.10-10.47.30:728][560]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2024.03.10-10.47.30:728][560]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2024.03.10-10.47.47:913][583]LogDerivedDataCache: C:/Users/emilx/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.063 and deleted 0 files with total size 0 MiB and 7 empty folders. Scanned 365 files in 682 folders with total size 12 MiB.
+[2024.03.10-10.49.16:036][806]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.03.10-10.49.16:050][806]LogContentBrowser: Creating deferred item: NewFolder
+[2024.03.10-10.49.16:063][807]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.03.10-10.49.19:771][ 30]LogContentBrowser: Attempting asset rename: NewFolder -> Audio
+[2024.03.10-10.49.19:771][ 30]LogContentBrowser: End creating deferred item NewFolder
+[2024.03.10-10.49.34:801][926]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.03.10-10.49.34:812][926]LogContentBrowser: Creating deferred item: NewFolder
+[2024.03.10-10.49.34:823][927]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.03.10-10.49.38:283][135]LogContentBrowser: Attempting asset rename: NewFolder -> Props
+[2024.03.10-10.49.38:283][135]LogContentBrowser: End creating deferred item NewFolder
+[2024.03.10-10.50.26:019][163]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-10.50.26:137][164]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
