@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SolarPunkRPG.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SolarPunkRPG.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SolarPunkRPGEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SolarPunkRPG">
+      <UniqueIdentifier>{9AD107D5-C70D-3B00-8F90-9CFC9D214638}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SolarPunkRPG\AC_MeshChanger.cpp">
+      <Filter>Source\SolarPunkRPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SolarPunkRPG\AC_MeshChanger.h">
+      <Filter>Source\SolarPunkRPG</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\SolarPunkRPG\SolarPunkRPG.Build.cs">
+      <Filter>Source\SolarPunkRPG</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SolarPunkRPG\SolarPunkRPG.cpp">
+      <Filter>Source\SolarPunkRPG</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SolarPunkRPG\SolarPunkRPG.h">
+      <Filter>Source\SolarPunkRPG</Filter>
+    </ClInclude>
+    <Filter Include="Source\SolarPunkRPG\Private">
+      <UniqueIdentifier>{9FDE371C-A221-34A2-99EC-1A5C4D1191B4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SolarPunkRPG\Private\BodySlot.cpp">
+      <Filter>Source\SolarPunkRPG\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\SolarPunkRPG\Public">
+      <UniqueIdentifier>{B73F97F9-CFF4-3994-8D51-5C5EF7A3BCF3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SolarPunkRPG\Public\BodySlot.h">
+      <Filter>Source\SolarPunkRPG\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

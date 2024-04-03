@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "SolarPunkRPG",
+			"Path": "..\\Source\\SolarPunkRPG.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SolarPunkRPGEditor",
+			"Path": "..\\Source\\SolarPunkRPGEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
