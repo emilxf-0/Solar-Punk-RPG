@@ -1,6 +1,5 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "AC_MeshChanger.h"
 
 // Sets default values for this component's properties
@@ -14,13 +13,26 @@ UAC_MeshChanger::UAC_MeshChanger()
 }
 
 
+void UAC_MeshChanger::ChangeMesh(EBodyPart bodypart, int index)
+{
+	UBodySlot* data = BodyMap.FindRef(bodypart);
+}
+
 // Called when the game starts
 void UAC_MeshChanger::BeginPlay()
 {
 	Super::BeginPlay();
-
+	InitializeBodyMap();
 	// ...
 	
+}
+
+void UAC_MeshChanger::InitializeBodyMap()
+{
+	for (auto It = AvailableSlots.CreateConstIterator(); It; ++It) {
+		UBodySlot* bodySlot = NewObject<UBodySlot>(this, It->Value);
+		BodyMap.Add(It->Key, bodySlot);
+	}
 }
 
 

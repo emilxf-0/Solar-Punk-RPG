@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "Public/BodySlotData.h"
 #include "Public/BodySlot.h"
 #include "AC_MeshChanger.generated.h"
 
@@ -27,11 +28,18 @@ public:
 	UPROPERTY(EditDefaultsOnly, Category = "Body Slots")
 	USkeletalMeshComponent* characterMeshComponent;
 	UPROPERTY(EditDefaultsOnly, Category = "Body Slots")
-	TMap<EBodyPart, UBodySlot*> bodyMap;
+	TMap<EBodyPart, TSubclassOf<UBodySlot>> AvailableSlots;
+	UPROPERTY(EditDefaultsOnly, CateGory = "Body Slots")
+	USkeletalMesh* skeletalMesh;
 
+	UPROPERTY()
+	TMap<EBodyPart, UBodySlot*> BodyMap;
+	UFUNCTION(BlueprintCallable)
+	void ChangeMesh(EBodyPart bodypart, int index);
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
+	void InitializeBodyMap();
 
 public:	
 	// Called every frame

@@ -6,6 +6,7 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/maxhe/OneDrive/Documents/GitHub/Solar-Punk-RPG/SolarPunkRPG/Content/Blueprints/BP_MaxTest.uasset",
+				"C:/Users/maxhe/OneDrive/Documents/GitHub/Solar-Punk-RPG/SolarPunkRPG/Content/Blueprints/Slots/BP_HeadPieaceTest.uasset",
 				"C:/dev/SolarPunkRPG/Solar-Punk-RPG/SolarPunkRPG/Content/Blueprints/UIRenderTarget.uasset",
 				"C:/dev/SolarPunkRPG/Solar-Punk-RPG/SolarPunkRPG/Content/Blueprints/WBP_CharacterUI.uasset",
 				"C:/dev/SolarPunkRPG/Solar-Punk-RPG/SolarPunkRPG/Content/Blueprints/WBP_SkillTree.uasset",
