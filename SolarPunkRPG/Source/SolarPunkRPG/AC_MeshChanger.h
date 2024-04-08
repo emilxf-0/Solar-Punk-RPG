@@ -1,21 +1,26 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #pragma once
-
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "Public/BodySlotData.h"
 #include "Public/BodySlot.h"
 #include "AC_MeshChanger.generated.h"
 
+
+
 UENUM(BlueprintType)
 enum class EBodyPart : uint8 {
-	VE_HeadPiece  UMETA(DisplayName = "Head Piece"),
-	VE_ChestPiece  UMETA(DisplayName = "Chest Piece"),
-	VE_LegPiece  UMETA(DisplayName = "Legs"),
-	VE_Charm UMETA(DisplayName = "Charm"),
+	VE_HeadPiece UMETA(DisplayName = "Head Piece"),
+	VE_Torso UMETA(DisplayName = "Torso"),
+	VE_LegPiece UMETA(DisplayName = "Pants"),
+	VE_Shoes UMETA(DisplayName = "Shoes"),
+	VE_MainHand UMETA(DisplayName = "Main Weapon"),
+	VE_Gloves UMETA(DisplayName = "Gloves"),
+	VE_Offhand UMETA(DisplayName = "Offhand Weapon"),
+	VE_TwoHand UMETA(DisplayName = "Two Handed"),
+	LASTELEMENT UMETA(DisplayName = "LAST ELEMENT DO NOT USE")
 };
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class SOLARPUNKRPG_API UAC_MeshChanger : public UActorComponent
 {
 	GENERATED_BODY()
@@ -26,11 +31,8 @@ public:
 
 	
 	UPROPERTY(EditDefaultsOnly, Category = "Body Slots")
-	USkeletalMeshComponent* characterMeshComponent;
-	UPROPERTY(EditDefaultsOnly, Category = "Body Slots")
 	TMap<EBodyPart, TSubclassOf<UBodySlot>> AvailableSlots;
-	UPROPERTY(EditDefaultsOnly, CateGory = "Body Slots")
-	USkeletalMesh* skeletalMesh;
+	
 
 	UPROPERTY()
 	TMap<EBodyPart, UBodySlot*> BodyMap;
