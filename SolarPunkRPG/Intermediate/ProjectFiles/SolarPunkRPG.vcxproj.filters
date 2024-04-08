@@ -54,6 +54,9 @@
     <ClCompile Include="..\..\Source\SolarPunkRPG\Private\BodySlotData.cpp">
       <Filter>Source\SolarPunkRPG\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\SolarPunkRPG\Private\CharacterCreationDoll.cpp">
+      <Filter>Source\SolarPunkRPG\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\SolarPunkRPG\Public">
       <UniqueIdentifier>{B73F97F9-CFF4-3994-8D51-5C5EF7A3BCF3}</UniqueIdentifier>
     </Filter>
@@ -61,6 +64,9 @@
       <Filter>Source\SolarPunkRPG\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\SolarPunkRPG\Public\BodySlotData.h">
+      <Filter>Source\SolarPunkRPG\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SolarPunkRPG\Public\CharacterCreationDoll.h">
       <Filter>Source\SolarPunkRPG\Public</Filter>
     </ClInclude>
   </ItemGroup>

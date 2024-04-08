@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/ajdin/OneDrive/Documents/Unreal Projects/Solar-Punk-RPG/SolarPunkRPG/Content/Assets/Models/sAWBLADE/M_Sawblade.uasset",
+				"C:/Users/ajdin/OneDrive/Documents/Unreal Projects/Solar-Punk-RPG/SolarPunkRPG/Content/Assets/Models/sAWBLADE/M_MetalHeating_Base.uasset",
+				"C:/Users/ajdin/OneDrive/Documents/Unreal Projects/Solar-Punk-RPG/SolarPunkRPG/Content/Assets/Models/sAWBLADE/PVCBlade_Interactive_BP.uasset",
+				"C:/Users/ajdin/OneDrive/Documents/Unreal Projects/Solar-Punk-RPG/SolarPunkRPG/Content/Assets/Models/sAWBLADE/M_Sawblade_Heating.uasset",
+				"C:/Users/ajdin/OneDrive/Documents/Unreal Projects/Solar-Punk-RPG/SolarPunkRPG/Content/Assets/Models/sAWBLADE/WeaponHeatingExample_BP.uasset",
 				"C:/Users/maxhe/OneDrive/Documents/GitHub/Solar-Punk-RPG/SolarPunkRPG/Content/Blueprints/BP_MaxTest.uasset",
 				"C:/Users/maxhe/OneDrive/Documents/GitHub/Solar-Punk-RPG/SolarPunkRPG/Content/Blueprints/Slots/BP_HeadPieaceTest.uasset",
 				"C:/dev/SolarPunkRPG/Solar-Punk-RPG/SolarPunkRPG/Content/Blueprints/UIRenderTarget.uasset",
